@@ -1,0 +1,10 @@
+[2026-11-02 23:51:48] [INFO] [logger.py:66] ================================================================================
+[2026-11-02 23:51:48] [INFO] [logger.py:67] SYSTEM & SERVER TELEMETRY
+[2026-11-02 23:51:48] [INFO] [logger.py:68] OS: win32 | Python: 3.11.9
+[2026-11-02 23:51:48] [INFO] [logger.py:69] Host Memory: Total=15.69 GB | Available=3.13 GB (80.0% used)
+[2026-11-02 23:51:48] [INFO] [logger.py:70] CPU Physical Cores: 10 | Logical Threads: 12
+[2026-11-02 23:51:48] [INFO] [logger.py:71] ================================================================================
+[2026-11-02 23:51:48] [INFO] [3068107151.py:16] Notebook 01: Preprocessing & EDA initialized.
+[2026-11-02 23:51:49] [INFO] [gdag_preprocessing.py:37] Applying Local-Global Invariant IQR filtering on 10008 initial records...
+[2026-11-02 23:51:49] [INFO] [gdag_preprocessing.py:65] Local-Global Invariant IQR filtering complete: Kept 8389 / 10008 records (1619 outliers removed, 83.82% retained)
+[2026-11-02 23:51:50] [INFO] [2099628663.py:1] Notebook 01 execution completed. Verified 8389 cleaned listings.

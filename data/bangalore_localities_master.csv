@@ -1,0 +1,153 @@
+name,lat,lon,zone,quadrant,locality_id
+Whitefield,12.9698,77.7499,East,East,0
+Marathahalli,12.9591,77.6974,East,East,1
+Bellandur,12.926,77.6762,South-East,East,2
+Sarjapur Road,12.9116,77.6744,South-East,East,3
+Sarjapur,12.8601,77.7865,Suburban East,East,4
+Varthur,12.9406,77.741,East,East,5
+Haralur Road,12.9121,77.662,South-East,East,6
+Harlur,12.9121,77.662,South-East,East,7
+Kasavanahalli,12.9079,77.6773,South-East,East,8
+Hoodi,12.9919,77.7163,East,East,9
+Kundalahalli,12.966,77.7169,East,East,10
+KR Puram,13.0075,77.6959,East,East,11
+Kaggadasapura,12.9852,77.6775,East,East,12
+CV Raman Nagar,12.9854,77.6639,East,East,13
+Mahadevapura,12.9926,77.6932,East,East,14
+Brookefield,12.9658,77.718,East,East,15
+Kadugodi,12.9986,77.761,East,East,16
+Budigere Cross,13.0789,77.7424,Suburban East,East,17
+Gunjur,12.915,77.733,East,East,18
+Panathur,12.934,77.701,East,East,19
+Bhoganhalli,12.9315,77.692,East,East,20
+Doddanekundi,12.9712,77.697,East,East,21
+Chikka Tirupathi,12.8988,77.8682,Suburban East,East,22
+Old Airport Road,12.9602,77.6534,East,East,23
+Murugeshpalya,12.956,77.653,East,East,24
+Old Madras Road,13.003,77.675,East,East,25
+TC Palaya,13.023,77.702,East,East,26
+Battarahalli,13.028,77.712,East,East,27
+Ramagondanahalli,12.96,77.73,East,East,28
+Nallurhalli,12.9734,77.7303,East,East,29
+Pattandur Agrahara,12.9829,77.7554,East,East,30
+Channasandra,12.995,77.76,East,East,31
+Seegehalli,13.011,77.742,East,East,32
+Kodi,12.981,77.732,East,East,33
+Balagere,12.938,77.718,East,East,34
+Mullur,12.905,77.708,East,East,35
+Carmelaram,12.911,77.71,East,East,36
+Electronic City,12.8452,77.6602,South,South,37
+Electronic City Phase 1,12.8452,77.6602,South,South,38
+Electronic City Phase 2,12.849,77.679,South,South,39
+Chandapura,12.7933,77.7011,Suburban South,South,40
+Jigani,12.7842,77.6416,Suburban South,South,41
+Anekal,12.7107,77.6974,Suburban South,South,42
+Attibele,12.778,77.771,Suburban South,South,43
+Bommasandra,12.817,77.685,South,South,44
+Doddathoguru,12.852,77.653,South,South,45
+Hosa Road,12.885,77.655,South,South,46
+Begur Road,12.882,77.625,South,South,47
+Begur,12.878,77.629,South,South,48
+Singasandra,12.889,77.647,South,South,49
+Kudlu Gate,12.898,77.649,South,South,50
+Kudlu,12.899,77.654,South,South,51
+HSR Layout,12.9121,77.6446,South,South,52
+Koramangala,12.9352,77.6245,South,South,53
+BTM Layout,12.9166,77.6101,South,South,54
+Bommanahalli,12.902,77.624,South,South,55
+Mangammanapalya,12.908,77.639,South,South,56
+Bannerghatta Road,12.89,77.598,South,South,57
+Hulimavu,12.879,77.601,South,South,58
+Arekere,12.885,77.595,South,South,59
+Gottigere,12.857,77.587,South,South,60
+Kalena Agrahara,12.867,77.593,South,South,61
+Akshaya Nagar,12.875,77.615,South,South,62
+Devarachikkanahalli,12.878,77.612,South,South,63
+JP Nagar,12.9074,77.5746,South,South,64
+Jayanagar,12.9298,77.5801,South,Central,65
+Banashankari,12.9155,77.5736,South,South,66
+Kumaraswamy Layout,12.903,77.558,South,South,67
+ISRO Layout,12.897,77.554,South,South,68
+Padmanabhanagar,12.918,77.556,South,South,69
+Uttarahalli,12.9063,77.5348,South-West,West,70
+Chikkalasandra,12.913,77.545,South-West,West,71
+Kanakapura Road,12.88,77.55,South,South,72
+Konanakunte,12.8847,77.5682,South,South,73
+Yelachenahalli,12.8959,77.5704,South,South,74
+Talaghattapura,12.8541,77.5385,South,South,75
+Kaggalipura,12.796,77.518,Suburban South,South,76
+Anjanapura,12.853,77.566,South,South,77
+Billekahalli,12.899,77.605,South,South,78
+Basavanagudi,12.942,77.575,South,Central,79
+Gandhi Bazar,12.944,77.571,South,Central,80
+Hebbal,13.0358,77.597,North,North,81
+Hebbal Kempapura,13.047,77.601,North,North,82
+Manyata Tech Park,13.0475,77.6214,North,North,83
+Thanisandra,13.0558,77.6322,North,North,84
+Yelahanka,13.1007,77.5963,North,North,85
+Yelahanka New Town,13.098,77.578,North,North,86
+Kogilu,13.111,77.625,North,North,87
+Jakkur,13.0783,77.6071,North,North,88
+Hennur Road,13.035,77.64,North,North,89
+Hennur,13.028,77.642,North,North,90
+Hormavu,13.0335,77.6638,North-East,North,91
+Kothanur,13.061,77.65,North,North,92
+Rachenahalli,13.054,77.619,North,North,93
+Nagavara,13.039,77.618,North,North,94
+Hegde Nagar,13.069,77.632,North,North,95
+Kalyan Nagar,13.022,77.647,North-East,North,96
+Kammanahalli,13.013,77.638,North-East,North,97
+Ramamurthy Nagar,13.0163,77.6784,East,East,98
+Banaswadi,13.008,77.645,East,East,99
+Kasturi Nagar,13.004,77.66,East,East,100
+Devanahalli,13.2484,77.7126,Suburban North,North,101
+Chikkaballapur Road,13.25,77.72,Suburban North,North,102
+Doddaballapur Road,13.18,77.54,Suburban North,North,103
+Sanjay Nagar,13.036,77.575,North,North,104
+Ganga Nagar,13.025,77.589,North,North,105
+RT Nagar,13.018,77.594,North,Central,106
+Kaval Byrasandra,13.023,77.604,North,North,107
+Sahakara Nagar,13.062,77.591,North,North,108
+Vidyaranyapura,13.082,77.562,North,North,109
+Thindlu,13.076,77.573,North,North,110
+Bagalur,13.134,77.666,Suburban North,North,111
+Bisuvanahalli,13.21,77.715,Suburban North,North,112
+Raja Rajeshwari Nagar,12.9274,77.5154,West,West,113
+Kengeri,12.9082,77.4764,West,West,114
+Kengeri Satellite Town,12.915,77.482,West,West,115
+Mysore Road,12.9469,77.53,West,West,116
+Nagarbhavi,12.961,77.51,West,West,117
+Vijayanagar,12.9701,77.5372,West,West,118
+Basaveshwara Nagar,12.986,77.54,West,West,119
+Rajaji Nagar,12.9987,77.5558,West,Central,120
+Mahalakshmi Layout,13.0081,77.5489,West,West,121
+Yeshwanthpur,13.0232,77.5501,North-West,North,122
+Malleshwaram,13.0031,77.5701,Central-North,Central,123
+Peenya,13.0329,77.5255,North-West,North,124
+Jalahalli,13.042,77.538,North-West,North,125
+Jalahalli West,13.045,77.518,North-West,North,126
+Magadi Road,12.9755,77.5552,West,West,127
+Chandra Layout,12.955,77.528,West,West,128
+Thigalarapalya,13.005,77.498,West,West,129
+Tumkur Road,13.055,77.495,North-West,North,130
+Nagasandra,13.0483,77.4996,North-West,North,131
+Hesaraghatta,13.14,77.48,Suburban North,North,132
+Abbigere,13.078,77.53,North-West,North,133
+Binny Pete,12.969,77.557,Central-West,Central,134
+Kumbalgodu,12.872,77.442,Suburban West,West,135
+Bidadi,12.795,77.387,Suburban West,West,136
+Lingadheeranahalli,12.887,77.512,South-West,West,137
+Indiranagar,12.9784,77.6408,Central-East,Central,138
+MG Road,12.9756,77.6066,Central,Central,139
+Domlur,12.961,77.639,Central-East,Central,140
+Ulsoor,12.981,77.625,Central,Central,141
+Frazer Town,12.997,77.613,Central-North,Central,142
+Shivaji Nagar,12.985,77.603,Central,Central,143
+Richmond Town,12.965,77.604,Central,Central,144
+Shanthi Nagar,12.957,77.594,Central,Central,145
+Wilson Garden,12.948,77.596,Central,Central,146
+Cox Town,12.999,77.625,Central-East,Central,147
+Cooke Town,13.003,77.627,Central-East,Central,148
+Benson Town,13.003,77.604,Central-North,Central,149
+Vasanth Nagar,12.989,77.592,Central,Central,150
+Seshadripuram,12.991,77.578,Central,Central,151

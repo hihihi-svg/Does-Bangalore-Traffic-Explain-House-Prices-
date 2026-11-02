@@ -1,0 +1,176 @@
+[2026-11-02 23:00:40] [INFO] [logger.py:75] Server logger initialized successfully.
+[2026-11-02 23:00:40] [INFO] [logger.py:66] ================================================================================
+[2026-11-02 23:00:40] [INFO] [logger.py:67] SYSTEM & SERVER TELEMETRY
+[2026-11-02 23:00:40] [INFO] [logger.py:68] OS: win32 | Python: 3.11.9
+[2026-11-02 23:00:40] [INFO] [logger.py:69] Host Memory: Total=15.69 GB | Available=2.29 GB (85.4% used)
+[2026-11-02 23:00:40] [INFO] [logger.py:70] CPU Physical Cores: 10 | Logical Threads: 12
+[2026-11-02 23:00:40] [INFO] [logger.py:71] ================================================================================
+[2026-11-02 23:42:53] [INFO] [gdag_spatial_graph.py:43] Constructing Gaussian Dual Adjacency Graph (GDAG) across 152 locality nodes...
+[2026-11-02 23:42:54] [INFO] [gdag_spatial_graph.py:57] Static Adjacency Matrix initialized: non-zero entries=1222
+[2026-11-02 23:42:54] [INFO] [gdag_spatial_graph.py:84] Dynamic Gaussian Adjacency Matrix computed (sigma=1.2, cutoff=0.3): non-zero entries=3912
+[2026-11-02 23:42:54] [INFO] [gdag_spatial_graph.py:98] Dual Adjacency Matrix (DAM) normalized successfully. Shape=(152, 152), Total edges=4108
+[2026-11-02 23:42:54] [INFO] [gdag_spatial_graph.py:136] GDAG module test passed successfully.
+[2026-11-02 23:43:58] [INFO] [models.py:206] Initializing models test...
+[2026-11-02 23:43:58] [INFO] [models.py:210] TabularMLP output shape: torch.Size([8])
+[2026-11-02 23:43:58] [INFO] [models.py:211] Models module validated successfully.
+[2026-11-02 23:46:54] [INFO] [logger.py:66] ================================================================================
+[2026-11-02 23:46:54] [INFO] [logger.py:67] SYSTEM & SERVER TELEMETRY
+[2026-11-02 23:46:54] [INFO] [logger.py:68] OS: win32 | Python: 3.11.9
+[2026-11-02 23:46:54] [INFO] [logger.py:69] Host Memory: Total=15.69 GB | Available=3.83 GB (75.6% used)
+[2026-11-02 23:46:54] [INFO] [logger.py:70] CPU Physical Cores: 10 | Logical Threads: 12
+[2026-11-02 23:46:54] [INFO] [logger.py:71] ================================================================================
+[2026-11-02 23:46:54] [INFO] [run_all_experiments.py:48] STARTING COMPLETE BANGALORE HOUSING + GDAG TRAFFIC EXPERIMENTAL PIPELINE
+[2026-11-02 23:46:54] [INFO] [run_all_experiments.py:49] Compute Device: cpu
+[2026-11-02 23:46:54] [INFO] [run_all_experiments.py:58] Loading master spatial commute dataset from data/bangalore_housing_spatial_commute_dataset.csv...
+[2026-11-02 23:46:54] [INFO] [gdag_preprocessing.py:37] Applying Local-Global Invariant IQR filtering on 10008 initial records...
+[2026-11-02 23:46:54] [DEBUG] [gdag_preprocessing.py:50] Global IQR [total_sqft_cleaned]: Q1=1110.0, Q3=1680.0, IQR=570.0 -> Bounds: [255.0, 2535.0]
+[2026-11-02 23:46:54] [DEBUG] [gdag_preprocessing.py:50] Global IQR [price_per_sqft]: Q1=4193.5, Q3=6785.7, IQR=2592.2 -> Bounds: [305.3, 10674.0]
+[2026-11-02 23:46:54] [INFO] [gdag_preprocessing.py:65] Local-Global Invariant IQR filtering complete: Kept 8389 / 10008 records (1619 outliers removed, 83.82% retained)
+[2026-11-02 23:46:54] [INFO] [run_all_experiments.py:66] Dataset ready for modeling: 8389 samples across 148 localities.
+[2026-11-02 23:46:54] [INFO] [gdag_spatial_graph.py:43] Constructing Gaussian Dual Adjacency Graph (GDAG) across 152 locality nodes...
+[2026-11-02 23:46:54] [INFO] [gdag_spatial_graph.py:57] Static Adjacency Matrix initialized: non-zero entries=1222
+[2026-11-02 23:46:54] [INFO] [gdag_spatial_graph.py:84] Dynamic Gaussian Adjacency Matrix computed (sigma=1.2, cutoff=0.3): non-zero entries=3912
+[2026-11-02 23:46:54] [INFO] [gdag_spatial_graph.py:98] Dual Adjacency Matrix (DAM) normalized successfully. Shape=(152, 152), Total edges=4108
+[2026-11-02 23:46:54] [INFO] [run_all_experiments.py:133] >>> RUNNING EXPERIMENT 1: BASELINE TABULAR NON-SPATIAL (XGBOOST & MLP) <<<
+[2026-11-02 23:46:54] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:46:54] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 1: XGBoost (Tabular Only)] on [Random Test]
+[2026-11-02 23:46:54] [INFO] [evaluation.py:78]   --> rmse              : 0.2658
+[2026-11-02 23:46:54] [INFO] [evaluation.py:78]   --> mape_pct          : 5.09
+[2026-11-02 23:46:54] [INFO] [evaluation.py:78]   --> r2                : 0.6735
+[2026-11-02 23:46:54] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:16] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:47:16] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 1: MLP (Tabular Only)] on [Random Test]
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> rmse              : 0.3013
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> mape_pct          : 5.67
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> r2                : 0.5804
+[2026-11-02 23:47:16] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:16] [INFO] [run_all_experiments.py:172] >>> RUNNING EXPERIMENT 2: COMMUTE-AWARE TABULAR (ADDING COMMUTE VECTORS) <<<
+[2026-11-02 23:47:16] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:47:16] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 2: XGBoost (Tabular + Commute)] on [Random Test]
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> rmse              : 0.224
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> mape_pct          : 4.2
+[2026-11-02 23:47:16] [INFO] [evaluation.py:78]   --> r2                : 0.7681
+[2026-11-02 23:47:16] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:16] [INFO] [run_all_experiments.py:185] >>> RUNNING EXPERIMENT 3: GDAG-GNN (GAUSSIAN DUAL ADJACENCY MATRIX SPATIAL ENCODER) <<<
+[2026-11-02 23:47:20] [DEBUG] [run_all_experiments.py:215] Epoch 10/40 - MSE Loss: 0.1439
+[2026-11-02 23:47:24] [DEBUG] [run_all_experiments.py:215] Epoch 20/40 - MSE Loss: 0.0769
+[2026-11-02 23:47:29] [DEBUG] [run_all_experiments.py:215] Epoch 30/40 - MSE Loss: 0.0659
+[2026-11-02 23:47:33] [DEBUG] [run_all_experiments.py:215] Epoch 40/40 - MSE Loss: 0.0631
+[2026-11-02 23:47:33] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:47:33] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 3: GDAG-GNN Hybrid] on [Random Test]
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> rmse              : 0.6761
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> mape_pct          : 14.77
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> r2                : -1.1128
+[2026-11-02 23:47:33] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:33] [INFO] [run_all_experiments.py:232] >>> RUNNING EXPERIMENT 4: UNCERTAINTY QUANTIFICATION & CALIBRATION <<<
+[2026-11-02 23:47:33] [INFO] [run_all_experiments.py:234] Evaluating Monte Carlo Dropout on held-out test listings...
+[2026-11-02 23:47:33] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:47:33] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 4: MC Dropout Head] on [Random Test]
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> rmse              : 0.2402
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> mape_pct          : 4.77
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> r2                : 0.7334
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> nll               : 4.5359
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> picp_90_pct       : 34.24
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> mpiw              : 0.2454
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> crps              : 0.1615
+[2026-11-02 23:47:33] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:33] [INFO] [models.py:185] Conformal calibrator fitted on 847 calibration samples: alpha=0.1 -> q_hat=0.4084
+[2026-11-02 23:47:33] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:47:33] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 4: Conformal Prediction (10% alpha)] on [Random Test]
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> rmse              : 0.6761
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> mape_pct          : 14.77
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> r2                : -1.1128
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> nll               : 3.2338
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> picp_90_pct       : 20.57
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> mpiw              : 0.8168
+[2026-11-02 23:47:33] [INFO] [evaluation.py:78]   --> crps              : 0.498
+[2026-11-02 23:47:33] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:47:33] [INFO] [run_all_experiments.py:263] >>> RUNNING 5-FOLD LEAVE-LOCALITY-OUT (LLO) BENCHMARK (ZERO SPATIAL LEAKAGE) <<<
+[2026-11-02 23:48:48] [INFO] [logger.py:66] ================================================================================
+[2026-11-02 23:48:48] [INFO] [logger.py:67] SYSTEM & SERVER TELEMETRY
+[2026-11-02 23:48:48] [INFO] [logger.py:68] OS: win32 | Python: 3.11.9
+[2026-11-02 23:48:48] [INFO] [logger.py:69] Host Memory: Total=15.69 GB | Available=3.91 GB (75.1% used)
+[2026-11-02 23:48:48] [INFO] [logger.py:70] CPU Physical Cores: 10 | Logical Threads: 12
+[2026-11-02 23:48:48] [INFO] [logger.py:71] ================================================================================
+[2026-11-02 23:48:48] [INFO] [run_all_experiments.py:49] STARTING COMPLETE BANGALORE HOUSING + GDAG TRAFFIC EXPERIMENTAL PIPELINE
+[2026-11-02 23:48:48] [INFO] [run_all_experiments.py:50] Compute Device: cpu
+[2026-11-02 23:48:48] [INFO] [run_all_experiments.py:59] Loading master spatial commute dataset from data/bangalore_housing_spatial_commute_dataset.csv...
+[2026-11-02 23:48:48] [INFO] [gdag_preprocessing.py:37] Applying Local-Global Invariant IQR filtering on 10008 initial records...
+[2026-11-02 23:48:48] [DEBUG] [gdag_preprocessing.py:50] Global IQR [total_sqft_cleaned]: Q1=1110.0, Q3=1680.0, IQR=570.0 -> Bounds: [255.0, 2535.0]
+[2026-11-02 23:48:48] [DEBUG] [gdag_preprocessing.py:50] Global IQR [price_per_sqft]: Q1=4193.5, Q3=6785.7, IQR=2592.2 -> Bounds: [305.3, 10674.0]
+[2026-11-02 23:48:48] [INFO] [gdag_preprocessing.py:65] Local-Global Invariant IQR filtering complete: Kept 8389 / 10008 records (1619 outliers removed, 83.82% retained)
+[2026-11-02 23:48:48] [INFO] [run_all_experiments.py:67] Dataset ready for modeling: 8389 samples across 148 localities.
+[2026-11-02 23:48:48] [INFO] [gdag_spatial_graph.py:43] Constructing Gaussian Dual Adjacency Graph (GDAG) across 152 locality nodes...
+[2026-11-02 23:48:48] [INFO] [gdag_spatial_graph.py:57] Static Adjacency Matrix initialized: non-zero entries=1222
+[2026-11-02 23:48:48] [INFO] [gdag_spatial_graph.py:84] Dynamic Gaussian Adjacency Matrix computed (sigma=1.2, cutoff=0.3): non-zero entries=3912
+[2026-11-02 23:48:48] [INFO] [gdag_spatial_graph.py:98] Dual Adjacency Matrix (DAM) normalized successfully. Shape=(152, 152), Total edges=4108
+[2026-11-02 23:48:48] [INFO] [run_all_experiments.py:134] >>> RUNNING EXPERIMENT 1: BASELINE TABULAR NON-SPATIAL (XGBOOST & MLP) <<<
+[2026-11-02 23:48:48] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:48:48] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 1: XGBoost (Tabular Only)] on [Random Test]
+[2026-11-02 23:48:48] [INFO] [evaluation.py:78]   --> rmse              : 0.2658
+[2026-11-02 23:48:48] [INFO] [evaluation.py:78]   --> mape_pct          : 5.09
+[2026-11-02 23:48:48] [INFO] [evaluation.py:78]   --> r2                : 0.6735
+[2026-11-02 23:48:48] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:48:58] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:48:58] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 1: MLP (Tabular Only)] on [Random Test]
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> rmse              : 0.3013
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> mape_pct          : 5.67
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> r2                : 0.5804
+[2026-11-02 23:48:58] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:48:58] [INFO] [run_all_experiments.py:173] >>> RUNNING EXPERIMENT 2: COMMUTE-AWARE TABULAR (ADDING COMMUTE VECTORS) <<<
+[2026-11-02 23:48:58] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:48:58] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 2: XGBoost (Tabular + Commute)] on [Random Test]
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> rmse              : 0.224
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> mape_pct          : 4.2
+[2026-11-02 23:48:58] [INFO] [evaluation.py:78]   --> r2                : 0.7681
+[2026-11-02 23:48:58] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:48:58] [INFO] [run_all_experiments.py:186] >>> RUNNING EXPERIMENT 3: GDAG-GNN (GAUSSIAN DUAL ADJACENCY MATRIX SPATIAL ENCODER) <<<
+[2026-11-02 23:49:03] [DEBUG] [run_all_experiments.py:216] Epoch 10/40 - MSE Loss: 0.0609
+[2026-11-02 23:49:08] [DEBUG] [run_all_experiments.py:216] Epoch 20/40 - MSE Loss: 0.0561
+[2026-11-02 23:49:12] [DEBUG] [run_all_experiments.py:216] Epoch 30/40 - MSE Loss: 0.0536
+[2026-11-02 23:49:17] [DEBUG] [run_all_experiments.py:216] Epoch 40/40 - MSE Loss: 0.0532
+[2026-11-02 23:49:17] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:49:17] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 3: GDAG-GNN Hybrid] on [Random Test]
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> rmse              : 0.2335
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> mape_pct          : 4.49
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> r2                : 0.7479
+[2026-11-02 23:49:17] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:49:17] [INFO] [run_all_experiments.py:233] >>> RUNNING EXPERIMENT 4: UNCERTAINTY QUANTIFICATION & CALIBRATION <<<
+[2026-11-02 23:49:17] [INFO] [run_all_experiments.py:235] Evaluating Monte Carlo Dropout on held-out test listings...
+[2026-11-02 23:49:17] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:49:17] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 4: MC Dropout Head] on [Random Test]
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> rmse              : 0.2336
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> mape_pct          : 4.49
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> r2                : 0.7477
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> nll               : 8.3196
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> picp_90_pct       : 30.56
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> mpiw              : 0.1965
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> crps              : 0.1567
+[2026-11-02 23:49:17] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:49:17] [INFO] [models.py:186] Conformal calibrator fitted on 847 calibration samples: alpha=0.1 -> q_hat=0.4021
+[2026-11-02 23:49:17] [INFO] [evaluation.py:75] ======================================================================
+[2026-11-02 23:49:17] [INFO] [evaluation.py:76] EVALUATION RESULTS: [Exp 4: Conformal Prediction (10% alpha)] on [Random Test]
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> rmse              : 0.2335
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> mape_pct          : 4.49
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> r2                : 0.7479
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> nll               : -0.0334
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> picp_90_pct       : 92.27
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> mpiw              : 0.8042
+[2026-11-02 23:49:17] [INFO] [evaluation.py:78]   --> crps              : 0.1306
+[2026-11-02 23:49:17] [INFO] [evaluation.py:79] ======================================================================
+[2026-11-02 23:49:17] [INFO] [run_all_experiments.py:264] >>> RUNNING 5-FOLD LEAVE-LOCALITY-OUT (LLO) BENCHMARK (ZERO SPATIAL LEAKAGE) <<<
+[2026-11-02 23:49:29] [INFO] [run_all_experiments.py:320]   Fold 0: Exp1 RMSE=0.2654 | Exp2 RMSE=0.2635 | Exp3 GDAG RMSE=0.2829 | Conformal PICP=85.9%
+[2026-11-02 23:49:41] [INFO] [run_all_experiments.py:320]   Fold 1: Exp1 RMSE=0.3164 | Exp2 RMSE=0.3010 | Exp3 GDAG RMSE=0.2921 | Conformal PICP=86.6%
+[2026-11-02 23:49:52] [INFO] [run_all_experiments.py:320]   Fold 2: Exp1 RMSE=0.2758 | Exp2 RMSE=0.2578 | Exp3 GDAG RMSE=0.2717 | Conformal PICP=85.2%
+[2026-11-02 23:50:04] [INFO] [run_all_experiments.py:320]   Fold 3: Exp1 RMSE=0.2507 | Exp2 RMSE=0.2526 | Exp3 GDAG RMSE=0.2623 | Conformal PICP=87.9%
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:320]   Fold 4: Exp1 RMSE=0.2502 | Exp2 RMSE=0.2505 | Exp3 GDAG RMSE=0.2694 | Conformal PICP=86.8%
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:322] ================================================================================
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:323] FINAL LEAVE-LOCALITY-OUT (LLO) 5-FOLD AGGREGATE RESULTS:
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:324]   Exp 1 (Tabular Only):      Mean RMSE = 0.2717 +/- 0.0243
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:325]   Exp 2 (Tabular + Commute): Mean RMSE = 0.2651 +/- 0.0185
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:326]   Exp 3 (GDAG-GNN Hybrid):   Mean RMSE = 0.2757 +/- 0.0105
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:327]   Exp 4 (Conformal 90% Cov): Mean PICP = 86.50% (Nominal: 90.0%)
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:328] ================================================================================
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:336] Benchmark metrics table exported to models/benchmark_results.csv
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:347] Hybrid GDAG model checkpoint saved to models/gdag_hybrid_housing_model.pt
+[2026-11-02 23:50:15] [INFO] [run_all_experiments.py:350] PIPELINE COMPLETED SUCCESSFULLY IN 87.29 SECONDS

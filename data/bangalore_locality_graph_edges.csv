@@ -1,0 +1,873 @@
+source_locality_id,target_locality_id,source_name,target_name,distance_km,peak_commute_min,spatial_edge_weight
+0,30,Whitefield,Pattandur Agrahara,2.08,10.9,0.6747
+0,29,Whitefield,Nallurhalli,2.85,14.2,0.5826
+0,33,Whitefield,Kodi,3.04,19.0,0.562
+0,28,Whitefield,Ramagondanahalli,3.19,19.7,0.5466
+0,31,Whitefield,Channasandra,3.97,23.0,0.4714
+0,5,Whitefield,Varthur,4.47,25.2,0.4288
+1,21,Marathahalli,Doddanekundi,1.78,9.6,0.7142
+1,10,Marathahalli,Kundalahalli,2.97,14.7,0.5701
+1,15,Marathahalli,Brookefield,3.11,19.3,0.5553
+1,19,Marathahalli,Panathur,3.72,21.9,0.4943
+1,20,Marathahalli,Bhoganhalli,4.12,23.7,0.4579
+1,34,Marathahalli,Balagere,4.27,24.3,0.445
+2,3,Bellandur,Sarjapur Road,2.13,11.1,0.6681
+2,20,Bellandur,Bhoganhalli,2.4,12.3,0.6347
+2,8,Bellandur,Kasavanahalli,2.66,13.4,0.6041
+2,6,Bellandur,Haralur Road,2.88,14.3,0.5797
+2,7,Bellandur,Harlur,2.88,14.3,0.5797
+2,19,Bellandur,Panathur,3.74,22.0,0.4927
+3,8,Sarjapur Road,Kasavanahalli,0.68,4.9,0.8786
+3,6,Sarjapur Road,Haralur Road,1.78,9.6,0.7144
+3,7,Sarjapur Road,Harlur,1.78,9.6,0.7144
+3,2,Sarjapur Road,Bellandur,2.13,11.1,0.6681
+3,51,Sarjapur Road,Kudlu,3.46,20.8,0.5198
+3,20,Sarjapur Road,Bhoganhalli,3.86,22.5,0.4817
+4,18,Sarjapur,Gunjur,11.11,53.6,0.1218
+4,43,Sarjapur,Attibele,12.25,58.5,0.0982
+4,22,Sarjapur,Chikka Tirupathi,13.0,61.7,0.0853
+5,28,Varthur,Ramagondanahalli,3.25,19.9,0.54
+5,34,Varthur,Balagere,3.31,20.2,0.534
+5,18,Varthur,Gunjur,3.93,22.8,0.4752
+5,0,Varthur,Whitefield,4.47,25.2,0.4288
+5,15,Varthur,Brookefield,4.95,27.2,0.3916
+5,29,Varthur,Nallurhalli,5.05,27.7,0.3841
+6,7,Haralur Road,Harlur,0.0,3.75,1.0
+6,3,Haralur Road,Sarjapur Road,1.78,9.6,0.7144
+6,51,Haralur Road,Kudlu,2.24,11.6,0.6546
+6,8,Haralur Road,Kasavanahalli,2.27,11.7,0.6501
+6,52,Haralur Road,HSR Layout,2.49,12.7,0.6241
+6,50,Haralur Road,Kudlu Gate,2.78,13.9,0.5904
+7,6,Harlur,Haralur Road,0.0,3.75,1.0
+7,3,Harlur,Sarjapur Road,1.78,9.6,0.7144
+7,51,Harlur,Kudlu,2.24,11.6,0.6546
+7,8,Harlur,Kasavanahalli,2.27,11.7,0.6501
+7,52,Harlur,HSR Layout,2.49,12.7,0.6241
+7,50,Harlur,Kudlu Gate,2.78,13.9,0.5904
+8,3,Kasavanahalli,Sarjapur Road,0.68,4.9,0.8786
+8,6,Kasavanahalli,Haralur Road,2.27,11.7,0.6501
+8,7,Kasavanahalli,Harlur,2.27,11.7,0.6501
+8,2,Kasavanahalli,Bellandur,2.66,13.4,0.6041
+8,51,Kasavanahalli,Kudlu,3.58,21.3,0.5076
+8,20,Kasavanahalli,Bhoganhalli,4.05,23.4,0.4642
+9,33,Hoodi,Kodi,2.76,13.8,0.5932
+9,14,Hoodi,Mahadevapura,3.31,20.2,0.5347
+9,29,Hoodi,Nallurhalli,3.37,20.5,0.5278
+9,11,Hoodi,KR Puram,3.71,21.9,0.4954
+9,10,Hoodi,Kundalahalli,3.8,22.3,0.4867
+9,15,Hoodi,Brookefield,3.84,22.5,0.4834
+10,15,Kundalahalli,Brookefield,0.16,3.75,0.9701
+10,28,Kundalahalli,Ramagondanahalli,2.07,10.9,0.6756
+10,29,Kundalahalli,Nallurhalli,2.2,11.4,0.6589
+10,21,Kundalahalli,Doddanekundi,2.95,14.6,0.5723
+10,1,Kundalahalli,Marathahalli,2.97,14.7,0.5701
+10,33,Kundalahalli,Kodi,3.08,19.2,0.5576
+11,14,KR Puram,Mahadevapura,2.22,11.5,0.6566
+11,26,KR Puram,TC Palaya,2.44,12.4,0.6304
+11,98,KR Puram,Ramamurthy Nagar,2.82,14.1,0.5866
+11,25,KR Puram,Old Madras Road,3.06,19.1,0.56
+11,9,KR Puram,Hoodi,3.71,21.9,0.4954
+11,27,KR Puram,Battarahalli,3.79,22.2,0.4879
+12,13,Kaggadasapura,CV Raman Nagar,1.95,10.3,0.6918
+12,14,Kaggadasapura,Mahadevapura,2.49,12.7,0.6235
+12,25,Kaggadasapura,Old Madras Road,2.64,13.3,0.6069
+12,21,Kaggadasapura,Doddanekundi,3.46,20.8,0.5189
+12,100,Kaggadasapura,Kasturi Nagar,3.73,22.0,0.4938
+12,11,Kaggadasapura,KR Puram,4.2,24.0,0.4514
+13,12,CV Raman Nagar,Kaggadasapura,1.95,10.3,0.6918
+13,100,CV Raman Nagar,Kasturi Nagar,2.79,13.9,0.5899
+13,25,CV Raman Nagar,Old Madras Road,3.03,19.0,0.5631
+13,138,CV Raman Nagar,Indiranagar,3.46,20.8,0.5193
+13,23,CV Raman Nagar,Old Airport Road,3.99,23.1,0.4695
+13,99,CV Raman Nagar,Banaswadi,4.28,24.3,0.4447
+14,11,Mahadevapura,KR Puram,2.22,11.5,0.6566
+14,12,Mahadevapura,Kaggadasapura,2.49,12.7,0.6235
+14,25,Mahadevapura,Old Madras Road,3.02,18.9,0.5647
+14,21,Mahadevapura,Doddanekundi,3.19,19.7,0.5468
+14,9,Mahadevapura,Hoodi,3.31,20.2,0.5347
+14,98,Mahadevapura,Ramamurthy Nagar,4.07,23.5,0.4625
+15,10,Brookefield,Kundalahalli,0.16,3.75,0.9701
+15,28,Brookefield,Ramagondanahalli,1.92,10.2,0.6957
+15,29,Brookefield,Nallurhalli,2.08,10.9,0.674
+15,33,Brookefield,Kodi,3.0,14.8,0.5668
+15,1,Brookefield,Marathahalli,3.11,19.3,0.5553
+15,21,Brookefield,Doddanekundi,3.11,19.3,0.5552
+16,31,Kadugodi,Channasandra,0.55,4.3,0.9015
+16,30,Kadugodi,Pattandur Agrahara,2.44,12.5,0.63
+16,32,Kadugodi,Seegehalli,3.27,20.0,0.5383
+16,0,Kadugodi,Whitefield,4.52,25.4,0.4252
+16,33,Kadugodi,Kodi,4.89,26.9,0.3964
+16,29,Kadugodi,Nallurhalli,5.74,30.6,0.3371
+17,27,Budigere Cross,Battarahalli,8.64,43.0,0.1946
+17,32,Budigere Cross,Seegehalli,9.97,48.7,0.1514
+17,26,Budigere Cross,TC Palaya,10.03,49.0,0.1495
+18,36,Gunjur,Carmelaram,3.34,20.3,0.531
+18,35,Gunjur,Mullur,3.87,22.6,0.4808
+18,5,Gunjur,Varthur,3.93,22.8,0.4752
+18,34,Gunjur,Balagere,4.0,23.1,0.4688
+18,19,Gunjur,Panathur,5.36,29.0,0.3623
+18,20,Gunjur,Bhoganhalli,6.35,33.2,0.3006
+19,20,Panathur,Bhoganhalli,1.34,7.7,0.776
+19,34,Panathur,Balagere,2.5,12.7,0.6226
+19,36,Panathur,Carmelaram,3.61,21.5,0.5044
+19,1,Panathur,Marathahalli,3.72,21.9,0.4943
+19,2,Panathur,Bellandur,3.74,22.0,0.4927
+19,35,Panathur,Mullur,4.37,24.7,0.4368
+20,19,Bhoganhalli,Panathur,1.34,7.7,0.776
+20,2,Bhoganhalli,Bellandur,2.4,12.3,0.6347
+20,34,Bhoganhalli,Balagere,3.84,22.5,0.4832
+20,3,Bhoganhalli,Sarjapur Road,3.86,22.5,0.4817
+20,36,Bhoganhalli,Carmelaram,3.96,23.0,0.4723
+20,8,Bhoganhalli,Kasavanahalli,4.05,23.4,0.4642
+21,1,Doddanekundi,Marathahalli,1.78,9.6,0.7142
+21,10,Doddanekundi,Kundalahalli,2.95,14.6,0.5723
+21,15,Doddanekundi,Brookefield,3.11,19.3,0.5552
+21,14,Doddanekundi,Mahadevapura,3.19,19.7,0.5468
+21,12,Doddanekundi,Kaggadasapura,3.46,20.8,0.5189
+21,9,Doddanekundi,Hoodi,4.11,23.6,0.4596
+22,4,Chikka Tirupathi,Sarjapur,13.0,61.7,0.0853
+22,5,Chikka Tirupathi,Varthur,19.2,88.3,0.0263
+22,18,Chikka Tirupathi,Gunjur,19.49,89.5,0.0249
+23,24,Old Airport Road,Murugeshpalya,0.62,4.7,0.8894
+23,140,Old Airport Road,Domlur,2.06,10.8,0.6766
+23,138,Old Airport Road,Indiranagar,3.22,19.8,0.5432
+23,13,Old Airport Road,CV Raman Nagar,3.99,23.1,0.4695
+23,12,Old Airport Road,Kaggadasapura,5.03,27.6,0.3854
+23,141,Old Airport Road,Ulsoor,5.08,27.8,0.382
+24,23,Murugeshpalya,Old Airport Road,0.62,4.7,0.8894
+24,140,Murugeshpalya,Domlur,2.13,11.1,0.6677
+24,138,Murugeshpalya,Indiranagar,3.72,22.0,0.4941
+24,13,Murugeshpalya,CV Raman Nagar,4.59,25.7,0.4194
+24,53,Murugeshpalya,Koramangala,5.09,27.8,0.3811
+24,141,Murugeshpalya,Ulsoor,5.43,29.3,0.3575
+25,98,Old Madras Road,Ramamurthy Nagar,2.01,10.6,0.6832
+25,100,Old Madras Road,Kasturi Nagar,2.15,11.2,0.6655
+25,12,Old Madras Road,Kaggadasapura,2.64,13.3,0.6069
+25,14,Old Madras Road,Mahadevapura,3.02,18.9,0.5647
+25,13,Old Madras Road,CV Raman Nagar,3.03,19.0,0.5631
+25,11,Old Madras Road,KR Puram,3.06,19.1,0.56
+26,27,TC Palaya,Battarahalli,1.61,8.9,0.7376
+26,11,TC Palaya,KR Puram,2.44,12.4,0.6304
+26,98,TC Palaya,Ramamurthy Nagar,3.52,21.1,0.5139
+26,14,TC Palaya,Mahadevapura,4.64,25.9,0.4156
+26,25,TC Palaya,Old Madras Road,4.85,26.8,0.3991
+26,9,TC Palaya,Hoodi,5.0,27.4,0.3878
+27,26,Battarahalli,TC Palaya,1.61,8.9,0.7376
+27,11,Battarahalli,KR Puram,3.79,22.2,0.4879
+27,32,Battarahalli,Seegehalli,4.96,27.3,0.3906
+27,98,Battarahalli,Ramamurthy Nagar,5.1,27.9,0.3805
+27,9,Battarahalli,Hoodi,5.33,28.9,0.3641
+27,14,Battarahalli,Mahadevapura,5.85,31.1,0.3302
+28,15,Ramagondanahalli,Brookefield,1.92,10.2,0.6957
+28,29,Ramagondanahalli,Nallurhalli,1.97,10.4,0.6889
+28,10,Ramagondanahalli,Kundalahalli,2.07,10.9,0.6756
+28,33,Ramagondanahalli,Kodi,3.1,19.3,0.5564
+28,0,Ramagondanahalli,Whitefield,3.19,19.7,0.5466
+28,5,Ramagondanahalli,Varthur,3.25,19.9,0.54
+29,33,Nallurhalli,Kodi,1.14,6.9,0.8055
+29,28,Nallurhalli,Ramagondanahalli,1.97,10.4,0.6889
+29,15,Nallurhalli,Brookefield,2.08,10.9,0.674
+29,10,Nallurhalli,Kundalahalli,2.2,11.4,0.6589
+29,0,Nallurhalli,Whitefield,2.85,14.2,0.5826
+29,9,Nallurhalli,Hoodi,3.37,20.5,0.5278
+30,31,Pattandur Agrahara,Channasandra,1.89,10.1,0.6986
+30,0,Pattandur Agrahara,Whitefield,2.08,10.9,0.6747
+30,16,Pattandur Agrahara,Kadugodi,2.44,12.5,0.63
+30,33,Pattandur Agrahara,Kodi,3.36,20.4,0.5294
+30,29,Pattandur Agrahara,Nallurhalli,3.85,22.5,0.4822
+30,32,Pattandur Agrahara,Seegehalli,4.55,25.5,0.4226
+31,16,Channasandra,Kadugodi,0.55,4.3,0.9015
+31,30,Channasandra,Pattandur Agrahara,1.89,10.1,0.6986
+31,32,Channasandra,Seegehalli,3.48,20.9,0.5169
+31,0,Channasandra,Whitefield,3.97,23.0,0.4714
+31,33,Channasandra,Kodi,4.5,25.3,0.4264
+31,29,Channasandra,Nallurhalli,5.3,28.7,0.3665
+32,16,Seegehalli,Kadugodi,3.27,20.0,0.5383
+32,31,Seegehalli,Channasandra,3.48,20.9,0.5169
+32,30,Seegehalli,Pattandur Agrahara,4.55,25.5,0.4226
+32,9,Seegehalli,Hoodi,4.62,25.8,0.4167
+32,33,Seegehalli,Kodi,4.63,25.8,0.4161
+32,27,Seegehalli,Battarahalli,4.96,27.3,0.3906
+33,29,Kodi,Nallurhalli,1.14,6.9,0.8055
+33,9,Kodi,Hoodi,2.76,13.8,0.5932
+33,15,Kodi,Brookefield,3.0,14.8,0.5668
+33,0,Kodi,Whitefield,3.04,19.0,0.562
+33,10,Kodi,Kundalahalli,3.08,19.2,0.5576
+33,28,Kodi,Ramagondanahalli,3.1,19.3,0.5564
+34,19,Balagere,Panathur,2.5,12.7,0.6226
+34,5,Balagere,Varthur,3.31,20.2,0.534
+34,28,Balagere,Ramagondanahalli,3.66,21.7,0.5003
+34,20,Balagere,Bhoganhalli,3.84,22.5,0.4832
+34,18,Balagere,Gunjur,4.0,23.1,0.4688
+34,15,Balagere,Brookefield,4.08,23.5,0.4617
+35,36,Mullur,Carmelaram,0.93,6.0,0.8391
+35,18,Mullur,Gunjur,3.87,22.6,0.4808
+35,19,Mullur,Panathur,4.37,24.7,0.4368
+35,8,Mullur,Kasavanahalli,4.41,24.9,0.4335
+35,20,Mullur,Bhoganhalli,4.51,25.3,0.4254
+35,3,Mullur,Sarjapur Road,4.9,27.0,0.3951
+36,35,Carmelaram,Mullur,0.93,6.0,0.8391
+36,18,Carmelaram,Gunjur,3.34,20.3,0.531
+36,19,Carmelaram,Panathur,3.61,21.5,0.5044
+36,20,Carmelaram,Bhoganhalli,3.96,23.0,0.4723
+36,34,Carmelaram,Balagere,4.12,23.7,0.4578
+36,8,Carmelaram,Kasavanahalli,4.7,26.1,0.4106
+37,38,Electronic City,Electronic City Phase 1,0.0,3.75,1.0
+37,45,Electronic City,Doddathoguru,1.43,8.1,0.7621
+37,39,Electronic City,Electronic City Phase 2,2.75,13.8,0.5943
+37,44,Electronic City,Bommasandra,5.45,29.4,0.3561
+37,46,Electronic City,Hosa Road,5.89,31.2,0.3278
+37,48,Electronic City,Begur,6.57,34.1,0.2884
+38,37,Electronic City Phase 1,Electronic City,0.0,3.75,1.0
+38,45,Electronic City Phase 1,Doddathoguru,1.43,8.1,0.7621
+38,39,Electronic City Phase 1,Electronic City Phase 2,2.75,13.8,0.5943
+38,44,Electronic City Phase 1,Bommasandra,5.45,29.4,0.3561
+38,46,Electronic City Phase 1,Hosa Road,5.89,31.2,0.3278
+38,48,Electronic City Phase 1,Begur,6.57,34.1,0.2884
+39,37,Electronic City Phase 2,Electronic City,2.75,13.8,0.5943
+39,38,Electronic City Phase 2,Electronic City Phase 1,2.75,13.8,0.5943
+39,45,Electronic City Phase 2,Doddathoguru,3.75,22.1,0.4918
+39,44,Electronic City Phase 2,Bommasandra,4.77,26.5,0.4048
+39,46,Electronic City Phase 2,Hosa Road,6.3,33.0,0.3031
+39,49,Electronic City Phase 2,Singasandra,7.45,37.9,0.2441
+40,44,Chandapura,Bommasandra,4.17,23.9,0.4537
+40,41,Chandapura,Jigani,8.62,42.9,0.1954
+40,39,Chandapura,Electronic City Phase 2,8.77,43.6,0.1901
+40,37,Chandapura,Electronic City,9.61,47.2,0.1621
+40,38,Chandapura,Electronic City Phase 1,9.61,47.2,0.1621
+40,43,Chandapura,Attibele,10.25,49.9,0.1434
+41,44,Jigani,Bommasandra,7.86,39.7,0.2257
+41,40,Jigani,Chandapura,8.62,42.9,0.1954
+41,37,Jigani,Electronic City,9.34,46.0,0.1705
+41,38,Jigani,Electronic City Phase 1,9.34,46.0,0.1705
+41,45,Jigani,Doddathoguru,10.08,49.2,0.1481
+41,39,Jigani,Electronic City Phase 2,10.91,52.8,0.1266
+42,40,Anekal,Chandapura,12.14,58.0,0.1004
+42,41,Anekal,Jigani,13.42,63.5,0.0787
+42,43,Anekal,Attibele,14.44,67.9,0.0649
+43,40,Attibele,Chandapura,10.25,49.9,0.1434
+43,4,Attibele,Sarjapur,12.25,58.5,0.0982
+43,44,Attibele,Bommasandra,13.58,64.2,0.0765
+44,40,Bommasandra,Chandapura,4.17,23.9,0.4537
+44,39,Bommasandra,Electronic City Phase 2,4.77,26.5,0.4048
+44,37,Bommasandra,Electronic City,5.45,29.4,0.3561
+44,38,Bommasandra,Electronic City Phase 1,5.45,29.4,0.3561
+44,45,Bommasandra,Doddathoguru,6.88,35.5,0.2716
+44,41,Bommasandra,Jigani,7.86,39.7,0.2257
+45,37,Doddathoguru,Electronic City,1.43,8.1,0.7621
+45,38,Doddathoguru,Electronic City Phase 1,1.43,8.1,0.7621
+45,39,Doddathoguru,Electronic City Phase 2,3.75,22.1,0.4918
+45,46,Doddathoguru,Hosa Road,4.85,26.8,0.3989
+45,48,Doddathoguru,Begur,5.13,28.0,0.3782
+45,49,Doddathoguru,Singasandra,5.5,29.6,0.353
+46,49,Hosa Road,Singasandra,1.29,7.5,0.7838
+46,51,Hosa Road,Kudlu,2.06,10.8,0.677
+46,50,Hosa Road,Kudlu Gate,2.09,11.0,0.6728
+46,48,Hosa Road,Begur,3.86,22.5,0.4814
+46,56,Hosa Road,Mangammanapalya,4.08,23.5,0.4619
+46,6,Hosa Road,Haralur Road,4.1,23.6,0.4598
+47,48,Begur Road,Begur,0.82,5.5,0.8562
+47,62,Begur Road,Akshaya Nagar,1.76,9.5,0.7163
+47,63,Begur Road,Devarachikkanahalli,1.95,10.4,0.6911
+47,55,Begur Road,Bommanahalli,2.94,14.6,0.5731
+47,49,Begur Road,Singasandra,3.31,20.2,0.5341
+47,58,Begur Road,Hulimavu,3.46,20.8,0.5191
+48,47,Begur,Begur Road,0.82,5.5,0.8562
+48,62,Begur,Akshaya Nagar,2.05,10.8,0.6781
+48,63,Begur,Devarachikkanahalli,2.43,12.4,0.6308
+48,49,Begur,Singasandra,3.04,19.0,0.5623
+48,55,Begur,Bommanahalli,3.59,21.4,0.5062
+48,46,Begur,Hosa Road,3.86,22.5,0.4814
+49,46,Singasandra,Hosa Road,1.29,7.5,0.7838
+49,50,Singasandra,Kudlu Gate,1.35,7.8,0.7741
+49,51,Singasandra,Kudlu,1.78,9.6,0.7142
+49,56,Singasandra,Mangammanapalya,3.01,18.9,0.565
+49,48,Singasandra,Begur,3.04,19.0,0.5623
+49,47,Singasandra,Begur Road,3.31,20.2,0.5341
+50,51,Kudlu Gate,Kudlu,0.73,5.1,0.8708
+50,49,Kudlu Gate,Singasandra,1.35,7.8,0.7741
+50,56,Kudlu Gate,Mangammanapalya,2.05,10.8,0.6783
+50,46,Kudlu Gate,Hosa Road,2.09,11.0,0.6728
+50,52,Kudlu Gate,HSR Layout,2.16,11.3,0.6639
+50,6,Kudlu Gate,Haralur Road,2.78,13.9,0.5904
+51,50,Kudlu,Kudlu Gate,0.73,5.1,0.8708
+51,49,Kudlu,Singasandra,1.78,9.6,0.7142
+51,46,Kudlu,Hosa Road,2.06,10.8,0.677
+51,6,Kudlu,Haralur Road,2.24,11.6,0.6546
+51,7,Kudlu,Harlur,2.24,11.6,0.6546
+51,52,Kudlu,HSR Layout,2.35,12.1,0.6412
+52,56,HSR Layout,Mangammanapalya,1.0,6.3,0.8271
+52,50,HSR Layout,Kudlu Gate,2.16,11.3,0.6639
+52,51,HSR Layout,Kudlu,2.35,12.1,0.6412
+52,6,HSR Layout,Haralur Road,2.49,12.7,0.6241
+52,7,HSR Layout,Harlur,2.49,12.7,0.6241
+52,55,HSR Layout,Bommanahalli,3.3,20.1,0.5354
+53,54,Koramangala,BTM Layout,3.42,20.7,0.5232
+53,140,Koramangala,Domlur,4.32,24.5,0.4414
+53,52,Koramangala,HSR Layout,4.45,25.1,0.4309
+53,146,Koramangala,Wilson Garden,4.49,25.2,0.4273
+53,56,Koramangala,Mangammanapalya,4.5,25.3,0.4265
+53,55,Koramangala,Bommanahalli,4.87,26.9,0.3973
+54,78,BTM Layout,Billekahalli,2.68,13.5,0.6015
+54,55,BTM Layout,Bommanahalli,2.92,14.5,0.5748
+54,53,BTM Layout,Koramangala,3.42,20.7,0.5232
+54,57,BTM Layout,Bannerghatta Road,4.27,24.3,0.4454
+54,56,BTM Layout,Mangammanapalya,4.32,24.5,0.441
+54,65,BTM Layout,Jayanagar,4.71,26.2,0.4099
+55,56,Bommanahalli,Mangammanapalya,2.32,11.9,0.6445
+55,78,Bommanahalli,Billekahalli,2.75,13.8,0.5936
+55,54,Bommanahalli,BTM Layout,2.92,14.5,0.5748
+55,47,Bommanahalli,Begur Road,2.94,14.6,0.5731
+55,52,Bommanahalli,HSR Layout,3.3,20.1,0.5354
+55,48,Bommanahalli,Begur,3.59,21.4,0.5062
+56,52,Mangammanapalya,HSR Layout,1.0,6.3,0.8271
+56,50,Mangammanapalya,Kudlu Gate,2.05,10.8,0.6783
+56,55,Mangammanapalya,Bommanahalli,2.32,11.9,0.6445
+56,51,Mangammanapalya,Kudlu,2.52,12.8,0.6205
+56,49,Mangammanapalya,Singasandra,3.01,18.9,0.565
+56,6,Mangammanapalya,Haralur Road,3.35,20.3,0.5307
+57,59,Bannerghatta Road,Arekere,0.85,5.6,0.8513
+57,78,Bannerghatta Road,Billekahalli,1.66,9.1,0.7305
+57,58,Bannerghatta Road,Hulimavu,1.67,9.2,0.7288
+57,63,Bannerghatta Road,Devarachikkanahalli,2.67,13.4,0.6034
+57,62,Bannerghatta Road,Akshaya Nagar,3.28,20.1,0.5372
+57,61,Bannerghatta Road,Kalena Agrahara,3.45,20.8,0.5202
+58,59,Hulimavu,Arekere,1.23,7.3,0.7922
+58,63,Hulimavu,Devarachikkanahalli,1.58,8.8,0.7413
+58,57,Hulimavu,Bannerghatta Road,1.67,9.2,0.7288
+58,62,Hulimavu,Akshaya Nagar,2.09,10.9,0.6734
+58,61,Hulimavu,Kalena Agrahara,2.1,11.0,0.6718
+58,78,Hulimavu,Billekahalli,2.99,14.8,0.5675
+59,57,Arekere,Bannerghatta Road,0.85,5.6,0.8513
+59,58,Arekere,Hulimavu,1.23,7.3,0.7922
+59,78,Arekere,Billekahalli,2.5,12.7,0.6224
+59,63,Arekere,Devarachikkanahalli,2.64,13.3,0.6065
+59,61,Arekere,Kalena Agrahara,2.66,13.4,0.6045
+59,62,Arekere,Akshaya Nagar,3.22,19.8,0.5438
+60,61,Gottigere,Kalena Agrahara,1.7,9.3,0.7247
+60,77,Gottigere,Anjanapura,3.06,19.1,0.56
+60,58,Gottigere,Hulimavu,3.8,22.3,0.4869
+60,59,Gottigere,Arekere,4.27,24.3,0.4458
+60,63,Gottigere,Devarachikkanahalli,4.72,26.2,0.4089
+60,62,Gottigere,Akshaya Nagar,4.8,26.6,0.4029
+61,60,Kalena Agrahara,Gottigere,1.7,9.3,0.7247
+61,58,Kalena Agrahara,Hulimavu,2.1,11.0,0.6718
+61,59,Kalena Agrahara,Arekere,2.66,13.4,0.6045
+61,63,Kalena Agrahara,Devarachikkanahalli,3.16,19.6,0.5494
+61,62,Kalena Agrahara,Akshaya Nagar,3.36,20.4,0.5292
+61,57,Kalena Agrahara,Bannerghatta Road,3.45,20.8,0.5202
+62,63,Akshaya Nagar,Devarachikkanahalli,0.61,4.6,0.8901
+62,47,Akshaya Nagar,Begur Road,1.76,9.5,0.7163
+62,48,Akshaya Nagar,Begur,2.05,10.8,0.6781
+62,58,Akshaya Nagar,Hulimavu,2.09,10.9,0.6734
+62,59,Akshaya Nagar,Arekere,3.22,19.8,0.5438
+62,57,Akshaya Nagar,Bannerghatta Road,3.28,20.1,0.5372
+63,62,Devarachikkanahalli,Akshaya Nagar,0.61,4.6,0.8901
+63,58,Devarachikkanahalli,Hulimavu,1.58,8.8,0.7413
+63,47,Devarachikkanahalli,Begur Road,1.95,10.4,0.6911
+63,48,Devarachikkanahalli,Begur,2.43,12.4,0.6308
+63,59,Devarachikkanahalli,Arekere,2.64,13.3,0.6065
+63,57,Devarachikkanahalli,Bannerghatta Road,2.67,13.4,0.6034
+64,66,JP Nagar,Banashankari,1.2,7.1,0.7971
+64,74,JP Nagar,Yelachenahalli,1.79,9.7,0.7122
+64,67,JP Nagar,Kumaraswamy Layout,2.46,12.5,0.6274
+64,69,JP Nagar,Padmanabhanagar,3.08,19.2,0.5578
+64,68,JP Nagar,ISRO Layout,3.32,20.2,0.5333
+64,65,JP Nagar,Jayanagar,3.38,20.5,0.5271
+65,79,Jayanagar,Basavanagudi,1.93,10.3,0.6934
+65,66,Jayanagar,Banashankari,2.3,11.8,0.6474
+65,80,Jayanagar,Gandhi Bazar,2.46,12.5,0.6279
+65,64,Jayanagar,JP Nagar,3.38,20.5,0.5271
+65,146,Jayanagar,Wilson Garden,3.51,21.0,0.5145
+65,69,Jayanagar,Padmanabhanagar,3.86,22.5,0.4816
+66,64,Banashankari,JP Nagar,1.2,7.1,0.7971
+66,65,Banashankari,Jayanagar,2.3,11.8,0.6474
+66,69,Banashankari,Padmanabhanagar,2.54,12.9,0.6176
+66,67,Banashankari,Kumaraswamy Layout,2.89,14.4,0.5786
+66,74,Banashankari,Yelachenahalli,2.91,14.5,0.576
+66,79,Banashankari,Basavanagudi,3.89,22.7,0.4782
+67,68,Kumaraswamy Layout,ISRO Layout,1.05,6.5,0.8196
+67,74,Kumaraswamy Layout,Yelachenahalli,2.06,10.8,0.6773
+67,69,Kumaraswamy Layout,Padmanabhanagar,2.22,11.5,0.6567
+67,71,Kumaraswamy Layout,Chikkalasandra,2.37,12.2,0.6384
+67,64,Kumaraswamy Layout,JP Nagar,2.46,12.5,0.6274
+67,66,Kumaraswamy Layout,Banashankari,2.89,14.4,0.5786
+68,67,ISRO Layout,Kumaraswamy Layout,1.05,6.5,0.8196
+68,74,ISRO Layout,Yelachenahalli,2.35,12.1,0.6405
+68,72,ISRO Layout,Kanakapura Road,2.56,13.0,0.6158
+68,71,ISRO Layout,Chikkalasandra,2.68,13.5,0.6022
+68,73,ISRO Layout,Konanakunte,2.72,13.6,0.5976
+68,70,ISRO Layout,Uttarahalli,3.07,19.1,0.5594
+69,71,Padmanabhanagar,Chikkalasandra,1.74,9.4,0.7197
+69,67,Padmanabhanagar,Kumaraswamy Layout,2.22,11.5,0.6567
+69,66,Padmanabhanagar,Banashankari,2.54,12.9,0.6176
+69,64,Padmanabhanagar,JP Nagar,3.08,19.2,0.5578
+69,68,Padmanabhanagar,ISRO Layout,3.1,19.3,0.5564
+69,70,Padmanabhanagar,Uttarahalli,3.49,20.9,0.5168
+70,71,Uttarahalli,Chikkalasandra,1.76,9.5,0.7166
+70,68,Uttarahalli,ISRO Layout,3.07,19.1,0.5594
+70,67,Uttarahalli,Kumaraswamy Layout,3.35,20.4,0.5298
+70,69,Uttarahalli,Padmanabhanagar,3.49,20.9,0.5168
+70,113,Uttarahalli,Raja Rajeshwari Nagar,4.16,23.8,0.4549
+70,137,Uttarahalli,Lingadheeranahalli,4.32,24.5,0.4412
+71,69,Chikkalasandra,Padmanabhanagar,1.74,9.4,0.7197
+71,70,Chikkalasandra,Uttarahalli,1.76,9.5,0.7166
+71,67,Chikkalasandra,Kumaraswamy Layout,2.37,12.2,0.6384
+71,68,Chikkalasandra,ISRO Layout,2.68,13.5,0.6022
+71,66,Chikkalasandra,Banashankari,4.11,23.6,0.4593
+71,64,Chikkalasandra,JP Nagar,4.31,24.5,0.4418
+72,68,Kanakapura Road,ISRO Layout,2.56,13.0,0.6158
+72,73,Kanakapura Road,Konanakunte,2.69,13.5,0.6004
+72,67,Kanakapura Road,Kumaraswamy Layout,3.56,21.3,0.5091
+72,74,Kanakapura Road,Yelachenahalli,3.74,22.0,0.4927
+72,75,Kanakapura Road,Talaghattapura,4.14,23.8,0.4563
+72,70,Kanakapura Road,Uttarahalli,4.43,25.0,0.4321
+73,74,Konanakunte,Yelachenahalli,1.67,9.2,0.7283
+73,72,Konanakunte,Kanakapura Road,2.69,13.5,0.6004
+73,68,Konanakunte,ISRO Layout,2.72,13.6,0.5976
+73,67,Konanakunte,Kumaraswamy Layout,3.06,19.1,0.5605
+73,64,Konanakunte,JP Nagar,3.46,20.8,0.5197
+73,59,Konanakunte,Arekere,3.83,22.4,0.4837
+74,73,Yelachenahalli,Konanakunte,1.67,9.2,0.7283
+74,64,Yelachenahalli,JP Nagar,1.79,9.7,0.7122
+74,67,Yelachenahalli,Kumaraswamy Layout,2.06,10.8,0.6773
+74,68,Yelachenahalli,ISRO Layout,2.35,12.1,0.6405
+74,66,Yelachenahalli,Banashankari,2.91,14.5,0.576
+74,72,Yelachenahalli,Kanakapura Road,3.74,22.0,0.4927
+75,77,Talaghattapura,Anjanapura,3.94,22.9,0.4743
+75,72,Talaghattapura,Kanakapura Road,4.14,23.8,0.4563
+75,137,Talaghattapura,Lingadheeranahalli,6.14,32.3,0.3126
+75,73,Talaghattapura,Konanakunte,6.18,32.5,0.31
+75,68,Talaghattapura,ISRO Layout,6.68,34.6,0.2824
+75,60,Talaghattapura,Gottigere,6.95,35.8,0.268
+76,75,Kaggalipura,Talaghattapura,9.02,44.6,0.1812
+76,77,Kaggalipura,Anjanapura,10.83,52.4,0.1287
+76,72,Kaggalipura,Kanakapura Road,13.15,62.4,0.0828
+77,60,Anjanapura,Gottigere,3.06,19.1,0.56
+77,75,Anjanapura,Talaghattapura,3.94,22.9,0.4743
+77,61,Anjanapura,Kalena Agrahara,4.38,24.8,0.4366
+77,72,Anjanapura,Kanakapura Road,4.58,25.6,0.4203
+77,73,Anjanapura,Konanakunte,4.66,26.0,0.4134
+77,59,Anjanapura,Arekere,6.27,32.9,0.3051
+78,57,Billekahalli,Bannerghatta Road,1.66,9.1,0.7305
+78,59,Billekahalli,Arekere,2.5,12.7,0.6224
+78,54,Billekahalli,BTM Layout,2.68,13.5,0.6015
+78,55,Billekahalli,Bommanahalli,2.75,13.8,0.5936
+78,58,Billekahalli,Hulimavu,2.99,14.8,0.5675
+78,63,Billekahalli,Devarachikkanahalli,3.24,19.9,0.5413
+79,80,Basavanagudi,Gandhi Bazar,0.64,4.8,0.8853
+79,65,Basavanagudi,Jayanagar,1.93,10.3,0.6934
+79,146,Basavanagudi,Wilson Garden,3.13,19.4,0.5527
+79,145,Basavanagudi,Shanthi Nagar,3.5,21.0,0.5156
+79,66,Basavanagudi,Banashankari,3.89,22.7,0.4782
+79,69,Basavanagudi,Padmanabhanagar,4.45,25.1,0.4306
+80,79,Gandhi Bazar,Basavanagudi,0.64,4.8,0.8853
+80,65,Gandhi Bazar,Jayanagar,2.46,12.5,0.6279
+80,146,Gandhi Bazar,Wilson Garden,3.62,21.5,0.5034
+80,145,Gandhi Bazar,Shanthi Nagar,3.8,22.3,0.4866
+80,134,Gandhi Bazar,Binny Pete,4.18,23.9,0.4531
+80,66,Gandhi Bazar,Banashankari,4.2,24.0,0.4514
+81,82,Hebbal,Hebbal Kempapura,1.74,9.5,0.7192
+81,105,Hebbal,Ganga Nagar,1.95,10.4,0.6906
+81,107,Hebbal,Kaval Byrasandra,2.13,11.1,0.6682
+81,106,Hebbal,RT Nagar,2.65,13.3,0.6057
+81,94,Hebbal,Nagavara,3.04,19.0,0.5623
+81,104,Hebbal,Sanjay Nagar,3.15,19.5,0.5511
+82,81,Hebbal Kempapura,Hebbal,1.74,9.5,0.7192
+82,108,Hebbal Kempapura,Sahakara Nagar,2.63,13.3,0.6082
+82,94,Hebbal Kempapura,Nagavara,2.7,13.6,0.5997
+82,93,Hebbal Kempapura,Rachenahalli,2.77,13.9,0.5916
+82,83,Hebbal Kempapura,Manyata Tech Park,2.92,14.5,0.5754
+82,107,Hebbal Kempapura,Kaval Byrasandra,3.55,21.2,0.5106
+83,93,Manyata Tech Park,Rachenahalli,1.01,6.3,0.8253
+83,94,Manyata Tech Park,Nagavara,1.34,7.7,0.776
+83,84,Manyata Tech Park,Thanisandra,1.97,10.4,0.689
+83,82,Manyata Tech Park,Hebbal Kempapura,2.92,14.5,0.5754
+83,89,Manyata Tech Park,Hennur Road,3.23,19.8,0.5423
+83,95,Manyata Tech Park,Hegde Nagar,3.5,21.0,0.5153
+84,93,Thanisandra,Rachenahalli,1.91,10.2,0.697
+84,95,Thanisandra,Hegde Nagar,1.94,10.3,0.6928
+84,83,Thanisandra,Manyata Tech Park,1.97,10.4,0.689
+84,92,Thanisandra,Kothanur,2.66,13.4,0.6046
+84,94,Thanisandra,Nagavara,3.19,19.7,0.5461
+84,89,Thanisandra,Hennur Road,3.25,19.9,0.5403
+85,86,Yelahanka,Yelahanka New Town,2.65,13.3,0.6058
+85,88,Yelahanka,Jakkur,3.63,21.6,0.5026
+85,87,Yelahanka,Kogilu,4.37,24.7,0.4369
+85,110,Yelahanka,Thindlu,4.92,27.1,0.3936
+85,109,Yelahanka,Vidyaranyapura,5.62,30.1,0.345
+85,108,Yelahanka,Sahakara Nagar,5.73,30.6,0.3378
+86,85,Yelahanka New Town,Yelahanka,2.65,13.3,0.6058
+86,109,Yelahanka New Town,Vidyaranyapura,3.28,20.0,0.5375
+86,110,Yelahanka New Town,Thindlu,3.31,20.2,0.5345
+86,88,Yelahanka New Town,Jakkur,5.07,27.7,0.3831
+86,108,Yelahanka New Town,Sahakara Nagar,5.6,30.0,0.3462
+86,87,Yelahanka New Town,Kogilu,6.98,35.9,0.2664
+87,85,Kogilu,Yelahanka,4.37,24.7,0.4369
+87,88,Kogilu,Jakkur,5.44,29.3,0.357
+87,95,Kogilu,Hegde Nagar,6.25,32.8,0.3064
+87,111,Kogilu,Bagalur,6.76,35.0,0.2778
+87,86,Kogilu,Yelahanka New Town,6.98,35.9,0.2664
+87,92,Kogilu,Kothanur,8.16,41.0,0.2131
+88,108,Jakkur,Sahakara Nagar,3.32,20.2,0.5332
+88,85,Jakkur,Yelahanka,3.63,21.6,0.5026
+88,95,Jakkur,Hegde Nagar,3.81,22.3,0.4857
+88,93,Jakkur,Rachenahalli,3.95,22.9,0.4731
+88,82,Jakkur,Hebbal Kempapura,4.68,26.0,0.4124
+88,84,Jakkur,Thanisandra,4.88,26.9,0.3971
+89,90,Hennur Road,Hennur,1.07,6.6,0.8171
+89,96,Hennur Road,Kalyan Nagar,2.15,11.2,0.6649
+89,94,Hennur Road,Nagavara,3.2,19.7,0.5455
+89,83,Hennur Road,Manyata Tech Park,3.23,19.8,0.5423
+89,97,Hennur Road,Kammanahalli,3.24,19.9,0.5412
+89,84,Hennur Road,Thanisandra,3.25,19.9,0.5403
+90,89,Hennur,Hennur Road,1.07,6.6,0.8171
+90,96,Hennur,Kalyan Nagar,1.13,6.9,0.8067
+90,97,Hennur,Kammanahalli,2.27,11.7,0.65
+90,99,Hennur,Banaswadi,2.97,14.7,0.5701
+90,91,Hennur,Hormavu,3.22,19.8,0.5434
+90,94,Hennur,Nagavara,3.79,22.3,0.4876
+91,96,Hormavu,Kalyan Nagar,2.94,14.6,0.5735
+91,90,Hormavu,Hennur,3.22,19.8,0.5434
+91,98,Hormavu,Ramamurthy Nagar,3.28,20.0,0.5377
+91,89,Hormavu,Hennur Road,3.41,20.6,0.5242
+91,100,Hormavu,Kasturi Nagar,4.36,24.7,0.4376
+91,92,Hormavu,Kothanur,4.49,25.3,0.427
+92,84,Kothanur,Thanisandra,2.66,13.4,0.6046
+92,95,Kothanur,Hegde Nagar,2.83,14.1,0.5852
+92,89,Kothanur,Hennur Road,4.08,23.5,0.4622
+92,91,Kothanur,Hormavu,4.49,25.3,0.427
+92,83,Kothanur,Manyata Tech Park,4.54,25.5,0.4229
+92,93,Kothanur,Rachenahalli,4.55,25.5,0.4224
+93,83,Rachenahalli,Manyata Tech Park,1.01,6.3,0.8253
+93,84,Rachenahalli,Thanisandra,1.91,10.2,0.697
+93,94,Rachenahalli,Nagavara,2.21,11.5,0.6585
+93,82,Rachenahalli,Hebbal Kempapura,2.77,13.9,0.5916
+93,95,Rachenahalli,Hegde Nagar,2.88,14.3,0.5794
+93,88,Rachenahalli,Jakkur,3.95,22.9,0.4731
+94,83,Nagavara,Manyata Tech Park,1.34,7.7,0.776
+94,93,Nagavara,Rachenahalli,2.21,11.5,0.6585
+94,82,Nagavara,Hebbal Kempapura,2.7,13.6,0.5997
+94,81,Nagavara,Hebbal,3.04,19.0,0.5623
+94,107,Nagavara,Kaval Byrasandra,3.09,19.2,0.5574
+94,84,Nagavara,Thanisandra,3.19,19.7,0.5461
+95,84,Hegde Nagar,Thanisandra,1.94,10.3,0.6928
+95,92,Hegde Nagar,Kothanur,2.83,14.1,0.5852
+95,93,Hegde Nagar,Rachenahalli,2.88,14.3,0.5794
+95,83,Hegde Nagar,Manyata Tech Park,3.5,21.0,0.5153
+95,88,Hegde Nagar,Jakkur,3.81,22.3,0.4857
+95,94,Hegde Nagar,Nagavara,4.84,26.7,0.4001
+96,90,Kalyan Nagar,Hennur,1.13,6.9,0.8067
+96,97,Kalyan Nagar,Kammanahalli,1.84,9.9,0.7052
+96,99,Kalyan Nagar,Banaswadi,2.07,10.9,0.6751
+96,89,Kalyan Nagar,Hennur Road,2.15,11.2,0.6649
+96,91,Kalyan Nagar,Hormavu,2.94,14.6,0.5735
+96,100,Kalyan Nagar,Kasturi Nagar,3.23,19.8,0.5423
+97,99,Kammanahalli,Banaswadi,1.24,7.3,0.7905
+97,96,Kammanahalli,Kalyan Nagar,1.84,9.9,0.7052
+97,148,Kammanahalli,Cooke Town,2.15,11.2,0.6653
+97,90,Kammanahalli,Hennur,2.27,11.7,0.65
+97,147,Kammanahalli,Cox Town,2.77,13.9,0.5917
+97,89,Kammanahalli,Hennur Road,3.24,19.9,0.5412
+98,25,Ramamurthy Nagar,Old Madras Road,2.01,10.6,0.6832
+98,11,Ramamurthy Nagar,KR Puram,2.82,14.1,0.5866
+98,100,Ramamurthy Nagar,Kasturi Nagar,3.19,19.7,0.5464
+98,91,Ramamurthy Nagar,Hormavu,3.28,20.0,0.5377
+98,26,Ramamurthy Nagar,TC Palaya,3.52,21.1,0.5139
+98,14,Ramamurthy Nagar,Mahadevapura,4.07,23.5,0.4625
+99,97,Banaswadi,Kammanahalli,1.24,7.3,0.7905
+99,96,Banaswadi,Kalyan Nagar,2.07,10.9,0.6751
+99,100,Banaswadi,Kasturi Nagar,2.22,11.5,0.6562
+99,148,Banaswadi,Cooke Town,2.68,13.5,0.6023
+99,90,Banaswadi,Hennur,2.97,14.7,0.5701
+99,147,Banaswadi,Cox Town,3.15,19.5,0.5506
+100,25,Kasturi Nagar,Old Madras Road,2.15,11.2,0.6655
+100,99,Kasturi Nagar,Banaswadi,2.22,11.5,0.6562
+100,13,Kasturi Nagar,CV Raman Nagar,2.79,13.9,0.5899
+100,98,Kasturi Nagar,Ramamurthy Nagar,3.19,19.7,0.5464
+100,96,Kasturi Nagar,Kalyan Nagar,3.23,19.8,0.5423
+100,97,Kasturi Nagar,Kammanahalli,3.41,20.6,0.524
+101,102,Devanahalli,Chikkaballapur Road,1.08,6.6,0.8146
+101,112,Devanahalli,Bisuvanahalli,5.65,30.2,0.3432
+101,111,Devanahalli,Bagalur,18.06,83.4,0.0327
+102,101,Chikkaballapur Road,Devanahalli,1.08,6.6,0.8146
+102,112,Chikkaballapur Road,Bisuvanahalli,5.91,31.3,0.3262
+102,111,Chikkaballapur Road,Bagalur,18.69,86.1,0.029
+103,132,Doddaballapur Road,Hesaraghatta,10.39,50.5,0.1397
+103,86,Doddaballapur Road,Yelahanka New Town,13.2,62.6,0.082
+103,85,Doddaballapur Road,Yelahanka,14.15,66.6,0.0686
+104,105,Sanjay Nagar,Ganga Nagar,2.57,13.0,0.6144
+104,81,Sanjay Nagar,Hebbal,3.15,19.5,0.5511
+104,106,Sanjay Nagar,RT Nagar,3.79,22.2,0.4878
+104,122,Sanjay Nagar,Yeshwanthpur,4.03,23.3,0.4665
+104,82,Sanjay Nagar,Hebbal Kempapura,4.05,23.4,0.4641
+104,108,Sanjay Nagar,Sahakara Nagar,4.45,25.1,0.4305
+105,106,Ganga Nagar,RT Nagar,1.25,7.4,0.7889
+105,81,Ganga Nagar,Hebbal,1.95,10.4,0.6906
+105,107,Ganga Nagar,Kaval Byrasandra,2.17,11.3,0.6636
+105,104,Ganga Nagar,Sanjay Nagar,2.57,13.0,0.6144
+105,82,Ganga Nagar,Hebbal Kempapura,3.66,21.7,0.5003
+105,149,Ganga Nagar,Benson Town,3.88,22.6,0.4799
+106,105,RT Nagar,Ganga Nagar,1.25,7.4,0.7889
+106,107,RT Nagar,Kaval Byrasandra,1.61,8.9,0.7375
+106,149,RT Nagar,Benson Town,2.63,13.3,0.6082
+106,81,RT Nagar,Hebbal,2.65,13.3,0.6057
+106,104,RT Nagar,Sanjay Nagar,3.79,22.2,0.4878
+106,123,RT Nagar,Malleshwaram,4.06,23.4,0.4637
+107,106,Kaval Byrasandra,RT Nagar,1.61,8.9,0.7375
+107,81,Kaval Byrasandra,Hebbal,2.13,11.1,0.6682
+107,105,Kaval Byrasandra,Ganga Nagar,2.17,11.3,0.6636
+107,149,Kaval Byrasandra,Benson Town,2.94,14.6,0.5735
+107,94,Kaval Byrasandra,Nagavara,3.09,19.2,0.5574
+107,82,Kaval Byrasandra,Hebbal Kempapura,3.55,21.2,0.5106
+108,82,Sahakara Nagar,Hebbal Kempapura,2.63,13.3,0.6082
+108,110,Sahakara Nagar,Thindlu,3.29,20.1,0.5359
+108,88,Sahakara Nagar,Jakkur,3.32,20.2,0.5332
+108,81,Sahakara Nagar,Hebbal,3.94,22.9,0.4742
+108,93,Sahakara Nagar,Rachenahalli,4.17,23.9,0.4538
+108,104,Sahakara Nagar,Sanjay Nagar,4.45,25.1,0.4305
+109,110,Vidyaranyapura,Thindlu,1.8,9.7,0.7108
+109,86,Vidyaranyapura,Yelahanka New Town,3.28,20.0,0.5375
+109,133,Vidyaranyapura,Abbigere,4.61,25.8,0.4175
+109,108,Vidyaranyapura,Sahakara Nagar,5.08,27.8,0.3821
+109,85,Vidyaranyapura,Yelahanka,5.62,30.1,0.345
+109,88,Vidyaranyapura,Jakkur,6.47,33.7,0.2936
+110,109,Thindlu,Vidyaranyapura,1.8,9.7,0.7108
+110,108,Thindlu,Sahakara Nagar,3.29,20.1,0.5359
+110,86,Thindlu,Yelahanka New Town,3.31,20.2,0.5345
+110,88,Thindlu,Jakkur,4.89,26.9,0.3963
+110,85,Thindlu,Yelahanka,4.92,27.1,0.3936
+110,82,Thindlu,Hebbal Kempapura,5.84,31.0,0.3306
+111,87,Bagalur,Kogilu,6.76,35.0,0.2778
+111,95,Bagalur,Hegde Nagar,10.71,51.9,0.1316
+111,92,Bagalur,Kothanur,10.96,53.0,0.1256
+111,85,Bagalur,Yelahanka,11.1,53.6,0.1222
+111,88,Bagalur,Jakkur,11.74,56.3,0.1083
+112,101,Bisuvanahalli,Devanahalli,5.65,30.2,0.3432
+112,102,Bisuvanahalli,Chikkaballapur Road,5.91,31.3,0.3262
+112,111,Bisuvanahalli,Bagalur,13.17,62.4,0.0825
+113,116,Raja Rajeshwari Nagar,Mysore Road,3.54,21.2,0.5112
+113,70,Raja Rajeshwari Nagar,Uttarahalli,4.16,23.8,0.4549
+113,128,Raja Rajeshwari Nagar,Chandra Layout,4.43,25.0,0.4318
+113,71,Raja Rajeshwari Nagar,Chikkalasandra,4.73,26.3,0.4081
+113,117,Raja Rajeshwari Nagar,Nagarbhavi,4.99,27.4,0.3885
+113,115,Raja Rajeshwari Nagar,Kengeri Satellite Town,5.11,27.9,0.3797
+114,115,Kengeri,Kengeri Satellite Town,1.28,7.5,0.7847
+114,137,Kengeri,Lingadheeranahalli,5.97,31.6,0.3229
+114,113,Kengeri,Raja Rajeshwari Nagar,6.25,32.8,0.3061
+114,135,Kengeri,Kumbalgodu,7.24,37.0,0.2537
+114,70,Kengeri,Uttarahalli,8.36,41.8,0.2053
+114,117,Kengeri,Nagarbhavi,9.12,45.1,0.1778
+115,114,Kengeri Satellite Town,Kengeri,1.28,7.5,0.7847
+115,113,Kengeri Satellite Town,Raja Rajeshwari Nagar,5.11,27.9,0.3797
+115,137,Kengeri Satellite Town,Lingadheeranahalli,5.94,31.5,0.3245
+115,70,Kengeri Satellite Town,Uttarahalli,7.66,38.8,0.2343
+115,117,Kengeri Satellite Town,Nagarbhavi,7.85,39.6,0.2261
+115,116,Kengeri Satellite Town,Mysore Road,8.31,41.6,0.2072
+116,128,Mysore Road,Chandra Layout,1.22,7.2,0.7933
+116,117,Mysore Road,Nagarbhavi,3.53,21.1,0.5124
+116,113,Mysore Road,Raja Rajeshwari Nagar,3.54,21.2,0.5112
+116,118,Mysore Road,Vijayanagar,3.56,21.2,0.5098
+116,134,Mysore Road,Binny Pete,5.04,27.6,0.3847
+116,71,Mysore Road,Chikkalasandra,5.42,29.2,0.3583
+117,128,Nagarbhavi,Chandra Layout,2.72,13.7,0.5973
+117,116,Nagarbhavi,Mysore Road,3.53,21.1,0.5124
+117,118,Nagarbhavi,Vijayanagar,4.11,23.6,0.4588
+117,113,Nagarbhavi,Raja Rajeshwari Nagar,4.99,27.4,0.3885
+117,119,Nagarbhavi,Basaveshwara Nagar,5.65,30.2,0.3432
+117,129,Nagarbhavi,Thigalarapalya,6.68,34.6,0.2821
+118,119,Vijayanagar,Basaveshwara Nagar,2.37,12.1,0.6386
+118,128,Vijayanagar,Chandra Layout,2.58,13.0,0.6137
+118,127,Vijayanagar,Magadi Road,2.69,13.5,0.6004
+118,134,Vijayanagar,Binny Pete,2.84,14.2,0.5844
+118,116,Vijayanagar,Mysore Road,3.56,21.2,0.5098
+118,117,Vijayanagar,Nagarbhavi,4.11,23.6,0.4588
+119,118,Basaveshwara Nagar,Vijayanagar,2.37,12.1,0.6386
+119,127,Basaveshwara Nagar,Magadi Road,2.66,13.4,0.6037
+119,120,Basaveshwara Nagar,Rajaji Nagar,2.93,14.6,0.5742
+119,134,Basaveshwara Nagar,Binny Pete,3.48,20.9,0.5169
+119,121,Basaveshwara Nagar,Mahalakshmi Layout,3.48,20.9,0.5169
+119,128,Basaveshwara Nagar,Chandra Layout,4.86,26.8,0.3981
+120,121,Rajaji Nagar,Mahalakshmi Layout,1.7,9.3,0.7252
+120,123,Rajaji Nagar,Malleshwaram,2.14,11.2,0.6662
+120,119,Rajaji Nagar,Basaveshwara Nagar,2.93,14.6,0.5742
+120,151,Rajaji Nagar,Seshadripuram,3.37,20.4,0.5282
+120,127,Rajaji Nagar,Magadi Road,3.41,20.6,0.5246
+120,122,Rajaji Nagar,Yeshwanthpur,3.69,21.8,0.4974
+121,120,Mahalakshmi Layout,Rajaji Nagar,1.7,9.3,0.7252
+121,122,Mahalakshmi Layout,Yeshwanthpur,2.22,11.5,0.6564
+121,123,Mahalakshmi Layout,Malleshwaram,3.12,19.4,0.5539
+121,119,Mahalakshmi Layout,Basaveshwara Nagar,3.48,20.9,0.5169
+121,151,Mahalakshmi Layout,Seshadripuram,4.86,26.8,0.3983
+121,127,Mahalakshmi Layout,Magadi Road,4.87,26.9,0.3977
+122,121,Yeshwanthpur,Mahalakshmi Layout,2.22,11.5,0.6564
+122,125,Yeshwanthpur,Jalahalli,3.26,20.0,0.5396
+122,120,Yeshwanthpur,Rajaji Nagar,3.69,21.8,0.4974
+122,124,Yeshwanthpur,Peenya,3.79,22.3,0.4874
+122,104,Yeshwanthpur,Sanjay Nagar,4.03,23.3,0.4665
+122,123,Yeshwanthpur,Malleshwaram,4.11,23.6,0.4592
+123,151,Malleshwaram,Seshadripuram,2.1,11.0,0.6712
+123,120,Malleshwaram,Rajaji Nagar,2.14,11.2,0.6662
+123,121,Malleshwaram,Mahalakshmi Layout,3.12,19.4,0.5539
+123,150,Malleshwaram,Vasanth Nagar,3.75,22.1,0.4912
+123,106,Malleshwaram,RT Nagar,4.06,23.4,0.4637
+123,122,Malleshwaram,Yeshwanthpur,4.11,23.6,0.4592
+124,126,Peenya,Jalahalli West,2.07,10.9,0.6751
+124,125,Peenya,Jalahalli,2.23,11.6,0.6553
+124,122,Peenya,Yeshwanthpur,3.79,22.3,0.4874
+124,131,Peenya,Nagasandra,4.34,24.6,0.4397
+124,121,Peenya,Mahalakshmi Layout,4.94,27.2,0.392
+124,130,Peenya,Tumkur Road,5.44,29.3,0.3572
+125,124,Jalahalli,Peenya,2.23,11.6,0.6553
+125,126,Jalahalli,Jalahalli West,2.89,14.4,0.5781
+125,122,Jalahalli,Yeshwanthpur,3.26,20.0,0.5396
+125,121,Jalahalli,Mahalakshmi Layout,5.21,28.3,0.3725
+125,104,Jalahalli,Sanjay Nagar,5.36,29.0,0.3621
+125,133,Jalahalli,Abbigere,5.41,29.2,0.3592
+126,124,Jalahalli West,Peenya,2.07,10.9,0.6751
+126,131,Jalahalli West,Nagasandra,2.68,13.5,0.6025
+126,125,Jalahalli West,Jalahalli,2.89,14.4,0.5781
+126,130,Jalahalli West,Tumkur Road,3.6,21.4,0.5056
+126,133,Jalahalli West,Abbigere,5.14,28.0,0.3779
+126,122,Jalahalli West,Yeshwanthpur,5.6,30.0,0.3466
+127,134,Magadi Road,Binny Pete,0.99,6.2,0.8293
+127,119,Magadi Road,Basaveshwara Nagar,2.66,13.4,0.6037
+127,118,Magadi Road,Vijayanagar,2.69,13.5,0.6004
+127,120,Magadi Road,Rajaji Nagar,3.41,20.6,0.5246
+127,151,Magadi Road,Seshadripuram,3.98,23.0,0.4709
+127,123,Magadi Road,Malleshwaram,4.58,25.6,0.4202
+128,116,Chandra Layout,Mysore Road,1.22,7.2,0.7933
+128,118,Chandra Layout,Vijayanagar,2.58,13.0,0.6137
+128,117,Chandra Layout,Nagarbhavi,2.72,13.7,0.5973
+128,113,Chandra Layout,Raja Rajeshwari Nagar,4.43,25.0,0.4318
+128,134,Chandra Layout,Binny Pete,4.63,25.8,0.4161
+128,119,Chandra Layout,Basaveshwara Nagar,4.86,26.8,0.3981
+129,124,Thigalarapalya,Peenya,5.68,30.3,0.3412
+129,131,Thigalarapalya,Nagasandra,6.36,33.3,0.2999
+129,126,Thigalarapalya,Jalahalli West,6.53,34.0,0.2903
+129,119,Thigalarapalya,Basaveshwara Nagar,6.62,34.4,0.2853
+129,117,Thigalarapalya,Nagarbhavi,6.68,34.6,0.2821
+129,121,Thigalarapalya,Mahalakshmi Layout,7.29,37.3,0.2512
+130,131,Tumkur Road,Nagasandra,1.18,7.1,0.7993
+130,126,Tumkur Road,Jalahalli West,3.6,21.4,0.5056
+130,124,Tumkur Road,Peenya,5.44,29.3,0.3572
+130,133,Tumkur Road,Abbigere,6.04,31.9,0.3188
+130,125,Tumkur Road,Jalahalli,6.44,33.6,0.2954
+130,129,Tumkur Road,Thigalarapalya,7.35,37.5,0.2485
+131,130,Nagasandra,Tumkur Road,1.18,7.1,0.7993
+131,126,Nagasandra,Jalahalli West,2.68,13.5,0.6025
+131,124,Nagasandra,Peenya,4.34,24.6,0.4397
+131,125,Nagasandra,Jalahalli,5.57,29.9,0.3483
+131,133,Nagasandra,Abbigere,6.16,32.4,0.3116
+131,129,Nagasandra,Thigalarapalya,6.36,33.3,0.2999
+132,103,Hesaraghatta,Doddaballapur Road,10.39,50.5,0.1397
+132,133,Hesaraghatta,Abbigere,11.57,55.6,0.1117
+132,130,Hesaraghatta,Tumkur Road,12.66,60.3,0.0909
+133,109,Abbigere,Vidyaranyapura,4.61,25.8,0.4175
+133,126,Abbigere,Jalahalli West,5.14,28.0,0.3779
+133,125,Abbigere,Jalahalli,5.41,29.2,0.3592
+133,130,Abbigere,Tumkur Road,6.04,31.9,0.3188
+133,110,Abbigere,Thindlu,6.15,32.4,0.3117
+133,131,Abbigere,Nagasandra,6.16,32.4,0.3116
+134,127,Binny Pete,Magadi Road,0.99,6.2,0.8293
+134,118,Binny Pete,Vijayanagar,2.84,14.2,0.5844
+134,119,Binny Pete,Basaveshwara Nagar,3.48,20.9,0.5169
+134,80,Binny Pete,Gandhi Bazar,4.18,23.9,0.4531
+134,120,Binny Pete,Rajaji Nagar,4.36,24.7,0.4377
+134,151,Binny Pete,Seshadripuram,4.41,24.9,0.4338
+135,114,Kumbalgodu,Kengeri,7.24,37.0,0.2537
+135,115,Kumbalgodu,Kengeri Satellite Town,8.52,42.5,0.1992
+135,137,Kumbalgodu,Lingadheeranahalli,10.26,50.0,0.1434
+136,135,Bidadi,Kumbalgodu,13.77,65.0,0.0736
+136,76,Bidadi,Kaggalipura,18.75,86.4,0.0287
+136,114,Bidadi,Kengeri,20.97,95.9,0.0188
+137,70,Lingadheeranahalli,Uttarahalli,4.32,24.5,0.4412
+137,72,Lingadheeranahalli,Kanakapura Road,5.53,29.7,0.3506
+137,115,Lingadheeranahalli,Kengeri Satellite Town,5.94,31.5,0.3245
+137,113,Lingadheeranahalli,Raja Rajeshwari Nagar,5.95,31.5,0.3241
+137,114,Lingadheeranahalli,Kengeri,5.97,31.6,0.3229
+137,71,Lingadheeranahalli,Chikkalasandra,6.07,32.0,0.3167
+138,141,Indiranagar,Ulsoor,2.29,11.8,0.6479
+138,140,Indiranagar,Domlur,2.57,13.0,0.615
+138,23,Indiranagar,Old Airport Road,3.22,19.8,0.5432
+138,13,Indiranagar,CV Raman Nagar,3.46,20.8,0.5193
+138,24,Indiranagar,Murugeshpalya,3.72,22.0,0.4941
+138,147,Indiranagar,Cox Town,3.77,22.2,0.4892
+139,143,MG Road,Shivaji Nagar,1.47,8.3,0.7566
+139,144,MG Road,Richmond Town,1.6,8.9,0.7386
+139,141,MG Road,Ulsoor,2.75,13.8,0.5942
+139,150,MG Road,Vasanth Nagar,2.87,14.3,0.5808
+139,145,MG Road,Shanthi Nagar,3.27,20.0,0.5382
+139,142,MG Road,Frazer Town,3.27,20.0,0.5381
+140,23,Domlur,Old Airport Road,2.06,10.8,0.6766
+140,24,Domlur,Murugeshpalya,2.13,11.1,0.6677
+140,138,Domlur,Indiranagar,2.57,13.0,0.615
+140,141,Domlur,Ulsoor,3.55,21.2,0.5102
+140,53,Domlur,Koramangala,4.32,24.5,0.4414
+140,144,Domlur,Richmond Town,5.04,27.6,0.3849
+141,138,Ulsoor,Indiranagar,2.29,11.8,0.6479
+141,147,Ulsoor,Cox Town,2.64,13.3,0.6063
+141,139,Ulsoor,MG Road,2.75,13.8,0.5942
+141,142,Ulsoor,Frazer Town,2.91,14.5,0.5764
+141,143,Ulsoor,Shivaji Nagar,3.2,19.7,0.5454
+141,148,Ulsoor,Cooke Town,3.24,19.9,0.5412
+142,149,Frazer Town,Benson Town,1.56,8.7,0.7443
+142,147,Frazer Town,Cox Town,1.74,9.5,0.7191
+142,148,Frazer Town,Cooke Town,2.19,11.4,0.6608
+142,143,Frazer Town,Shivaji Nagar,2.27,11.7,0.6507
+142,141,Frazer Town,Ulsoor,2.91,14.5,0.5764
+142,150,Frazer Town,Vasanth Nagar,3.22,19.8,0.5429
+143,139,Shivaji Nagar,MG Road,1.47,8.3,0.7566
+143,150,Shivaji Nagar,Vasanth Nagar,1.68,9.2,0.7276
+143,142,Shivaji Nagar,Frazer Town,2.27,11.7,0.6507
+143,149,Shivaji Nagar,Benson Town,2.65,13.3,0.6059
+143,144,Shivaji Nagar,Richmond Town,2.94,14.6,0.5731
+143,141,Shivaji Nagar,Ulsoor,3.2,19.7,0.5454
+144,139,Richmond Town,MG Road,1.6,8.9,0.7386
+144,145,Richmond Town,Shanthi Nagar,1.85,9.9,0.7043
+144,146,Richmond Town,Wilson Garden,2.75,13.8,0.5946
+144,143,Richmond Town,Shivaji Nagar,2.94,14.6,0.5731
+144,141,Richmond Town,Ulsoor,3.81,22.3,0.4857
+144,150,Richmond Town,Vasanth Nagar,3.92,22.8,0.4761
+145,146,Shanthi Nagar,Wilson Garden,1.35,7.8,0.7742
+145,144,Shanthi Nagar,Richmond Town,1.85,9.9,0.7043
+145,139,Shanthi Nagar,MG Road,3.27,20.0,0.5382
+145,79,Shanthi Nagar,Basavanagudi,3.5,21.0,0.5156
+145,80,Shanthi Nagar,Gandhi Bazar,3.8,22.3,0.4866
+145,143,Shanthi Nagar,Shivaji Nagar,4.31,24.5,0.4423
+146,145,Wilson Garden,Shanthi Nagar,1.35,7.8,0.7742
+146,144,Wilson Garden,Richmond Town,2.75,13.8,0.5946
+146,79,Wilson Garden,Basavanagudi,3.13,19.4,0.5527
+146,65,Wilson Garden,Jayanagar,3.51,21.0,0.5145
+146,80,Wilson Garden,Gandhi Bazar,3.62,21.5,0.5034
+146,139,Wilson Garden,MG Road,4.33,24.5,0.4408
+147,148,Cox Town,Cooke Town,0.65,4.8,0.8837
+147,142,Cox Town,Frazer Town,1.74,9.5,0.7191
+147,141,Cox Town,Ulsoor,2.64,13.3,0.6063
+147,97,Cox Town,Kammanahalli,2.77,13.9,0.5917
+147,149,Cox Town,Benson Town,3.06,19.1,0.5601
+147,99,Cox Town,Banaswadi,3.15,19.5,0.5506
+148,147,Cooke Town,Cox Town,0.65,4.8,0.8837
+148,97,Cooke Town,Kammanahalli,2.15,11.2,0.6653
+148,142,Cooke Town,Frazer Town,2.19,11.4,0.6608
+148,99,Cooke Town,Banaswadi,2.68,13.5,0.6023
+148,141,Cooke Town,Ulsoor,3.24,19.9,0.5412
+148,149,Cooke Town,Benson Town,3.29,20.1,0.5363
+149,142,Benson Town,Frazer Town,1.56,8.7,0.7443
+149,106,Benson Town,RT Nagar,2.63,13.3,0.6082
+149,143,Benson Town,Shivaji Nagar,2.65,13.3,0.6059
+149,150,Benson Town,Vasanth Nagar,2.68,13.5,0.6023
+149,107,Benson Town,Kaval Byrasandra,2.94,14.6,0.5735
+149,147,Benson Town,Cox Town,3.06,19.1,0.5601
+150,143,Vasanth Nagar,Shivaji Nagar,1.68,9.2,0.7276
+150,151,Vasanth Nagar,Seshadripuram,2.02,10.7,0.6816
+150,149,Vasanth Nagar,Benson Town,2.68,13.5,0.6023
+150,139,Vasanth Nagar,MG Road,2.87,14.3,0.5808
+150,142,Vasanth Nagar,Frazer Town,3.22,19.8,0.5429
+150,123,Vasanth Nagar,Malleshwaram,3.75,22.1,0.4912
+151,150,Seshadripuram,Vasanth Nagar,2.02,10.7,0.6816
+151,123,Seshadripuram,Malleshwaram,2.1,11.0,0.6712
+151,120,Seshadripuram,Rajaji Nagar,3.37,20.4,0.5282
+151,143,Seshadripuram,Shivaji Nagar,3.68,21.8,0.4979
+151,127,Seshadripuram,Magadi Road,3.98,23.0,0.4709
+151,149,Seshadripuram,Benson Town,4.11,23.6,0.4587

@@ -1,0 +1,7 @@
+Experiment,Split,rmse,mape_pct,r2,nll,picp_90_pct,mpiw,crps
+Exp 1: Baseline XGBoost (Tabular),Random,0.2658,5.09,0.6735,,,,
+Exp 1: Baseline MLP (Tabular),Random,0.3013,5.67,0.5804,,,,
+Exp 2: XGBoost (+ Commute),Random,0.224,4.2,0.7681,,,,
+Exp 3: GDAG-GNN Hybrid,Random,0.2335,4.49,0.7479,,,,
+Exp 4: MC Dropout,Random,0.2336,4.49,0.7477,8.3196,30.56,0.1965,0.1567
+Exp 4: Conformal Prediction,Random,0.2335,4.49,0.7479,-0.0334,92.27,0.8042,0.1306
